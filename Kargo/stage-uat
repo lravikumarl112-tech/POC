@@ -1,0 +1,9 @@
+apiVersion: kargo.akuity.io/v1alpha1
+kind: Stage
+metadata:
+  name: uat
+  namespace: kargo
+spec:
+  requestedFreight:
+  - origin:
+      stage: dev
