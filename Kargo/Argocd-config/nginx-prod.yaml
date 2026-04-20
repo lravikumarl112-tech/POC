@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR-REPO/kargo-demo.git
+    repoURL: https://github.com/lravikumarl112-tech/POC.git
     targetRevision: main
     path: overlays/prod
 
