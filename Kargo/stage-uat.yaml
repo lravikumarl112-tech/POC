@@ -6,4 +6,8 @@ metadata:
 spec:
   requestedFreight:
   - origin:
-      stage: dev
+      kind: Warehouse
+      name: nginx-warehouse
+    sources:
+      stages:
+      - dev
