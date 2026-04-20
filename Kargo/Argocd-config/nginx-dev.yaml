@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/lravikumarl112-tech/POC.git
     targetRevision: main
-    path: overlays/dev
+    path: Kargo/overlays/dev
 
   destination:
     server: https://kubernetes.default.svc
