@@ -6,4 +6,8 @@ metadata:
 spec:
   requestedFreight:
   - origin:
-      stage: uat
+      kind: Warehouse
+      name: nginx-warehouse
+    sources:
+      stages:
+      - uat
