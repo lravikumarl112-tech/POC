@@ -4,5 +4,9 @@ metadata:
   name: dev
   namespace: kargo
 spec:
-  subscriptions:
-  - warehouse: nginx-warehouse
+  requestedFreight:
+  - origin:
+      kind: Warehouse
+      name: nginx-warehouse
+    sources:
+      direct: true
